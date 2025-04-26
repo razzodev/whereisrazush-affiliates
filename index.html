@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Featured Products</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .product-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1);
+        }
+        .product-image {
+            transition: transform 0.3s ease;
+        }
+        .product-card:hover .product-image {
+            transform: scale(1.03);
+        }
+        .affiliate-btn {
+            transition: all 0.3s ease;
+        }
+        .affiliate-btn:hover {
+            background-position: right center;
+        }
+        
+    </style>
+</head>
+<body class="bg-gray-50 min-h-screen">
+    <div class="container mx-auto px-4 py-12">
+        <!-- Header -->
+        <header class="text-center mb-16">
+            <h1 class="text-4xl md:text-5xl font-bold text-gray-800 mb-4">Featured Products</h1>
+            <p class="text-lg text-gray-600 max-w-2xl mx-auto">My personal list of essential items for backpackers, travellers and nomads.<br> These affiliate links may earn us a commission at no extra cost to you.</p>
+        </header>
+
+        <!-- Products Grid -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <!-- Product 1 -->
+            <div class="product-card bg-white rounded-xl overflow-hidden shadow-md transition-all duration-300">
+                <div class="relative overflow-hidden h-64">
+                    <img src="/public/zafu.jpg" 
+                         alt="Meditation Cushion" 
+                         class="product-image w-full h-full object-cover">
+                    
+                </div>
+                <div class="p-6">
+                    <div class="flex justify-between items-start mb-2">
+                        <h3 class="text-xl font-bold text-gray-800">Meditation Cushion</h3>
+                        
+                    </div>
+                    <p class="text-gray-600 mb-4">Pack your clothing, sleeping bag or other camping gear in one of these Zafu cushions. This 'pillowcase' includes a carrying strap for easy carrying. Use it as a seat if you want, or just check it in as your pillow to avoid baggage fees on your next flight!</p>
+                    <div class="flex items-center mb-4">
+                        
+                        
+                    </div>
+                    <a href="https://s.click.aliexpress.com/e/_oCoWLyl" 
+                       target="_blank" 
+                       rel="noopener noreferrer"
+                       class="affiliate-btn block w-full bg-gradient-to-r from-red-400 to-red-700 text-white text-center py-3 px-4 rounded-lg font-medium hover:shadow-lg  mt-4">
+                       <i class="fa-solid fa-check mr-2"></i> Buy from AliExpress
+                    </a>
+                    <a href="https://amzn.to/3GnNRmB" 
+                       target="_blank" 
+                       rel="noopener noreferrer"
+                       class="affiliate-btn block w-full bg-gradient-to-r from-green-400 to-green-700 text-white text-center py-3 px-4 rounded-lg font-medium hover:shadow-lg  mt-4">
+                       <i class="fa-brands fa-amazon mr-2"></i> Buy from Amazon India
+                    </a>
+                    <a href="https://s.shopee.co.th/2VehQbxI7F" 
+                       target="_blank" 
+                       rel="noopener noreferrer"
+                       class="affiliate-btn block w-full bg-gradient-to-r from-orange-500 to-orange-800 text-white text-center py-3 px-4 rounded-lg font-medium hover:shadow-lg mt-4">
+                       <i class="fa-solid fa-basket-shopping mr-2"></i> Buy from Shopee (TH)
+                    </a>
+                    
+                </div>
+            </div>
+
+            <!-- Product 2 -->
+            <div class="product-card bg-white rounded-xl overflow-hidden shadow-md transition-all duration-300">
+                <div class="relative overflow-hidden h-64">
+                    <img src="/public/fishing-vest.jpg"
+                         alt="Mesh Fishing Vest"
+                         class="product-image w-full h-full object-cover">
+                    
+                </div>
+                <div class="p-6">
+                    <div class="flex justify-between items-start mb-2">
+                        <h3 class="text-xl font-bold text-gray-800">Mesh Fishing Vest</h3>
+                        
+                    </div>
+                    <p class="text-gray-600 mb-4">Avoid overweight fees, wear your heaviest belongings before you check in your flight. There is even space for a 16" Laptop in the back pocket</p>
+                    <div class="flex items-center mb-4">
+                        
+                    </div>
+                    <a href="https://s.click.aliexpress.com/e/_oluVB5X" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    class="affiliate-btn block w-full bg-gradient-to-r from-red-400 to-red-700 text-white text-center py-3 px-4 rounded-lg font-medium hover:shadow-lg  mt-4">
+                    <i class="fa-solid fa-check mr-2"></i> Buy from AliExpress
+                 </a>
+                 <a href="https://amzn.to/4lJDsBT" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    class="affiliate-btn block w-full bg-gradient-to-r from-green-400 to-green-700 text-white text-center py-3 px-4 rounded-lg font-medium hover:shadow-lg  mt-4">
+                    <i class="fa-brands fa-amazon mr-2"></i> Buy from Amazon India
+                 </a>
+                 <a href="https://s.shopee.co.th/8UvuZIW0cT" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    class="affiliate-btn block w-full bg-gradient-to-r from-orange-500 to-orange-800 text-white text-center py-3 px-4 rounded-lg font-medium hover:shadow-lg mt-4">
+                    <i class="fa-solid fa-basket-shopping mr-2"></i> Buy from Shopee (TH)
+                 </a>
+                </div>
+            </div>
+
+            <!-- Product 3 -->
+            <div class="product-card bg-white rounded-xl overflow-hidden shadow-md transition-all duration-300">
+                <div class="relative overflow-hidden h-64">
+                    <img src="/public/gan.jpg" 
+                         alt="140w GAN Charger" 
+                         class="product-image w-full h-full object-cover">
+                </div>
+                <div class="p-6">
+                    <div class="flex justify-between items-start mb-2">
+                        <h3 class="text-xl font-bold text-gray-800">140w GAN Charger</h3>
+                    </div>
+                    <p class="text-gray-600 mb-4">Use one powerful charger for all your devices</p>
+                    <div class="flex items-center mb-4">
+                    </div>
+                    <a href="https://s.click.aliexpress.com/e/_ooN8PIp" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    class="affiliate-btn block w-full bg-gradient-to-r from-red-400 to-red-700 text-white text-center py-3 px-4 rounded-lg font-medium hover:shadow-lg  mt-4">
+                    <i class="fa-solid fa-check mr-2"></i> Buy from AliExpress
+                 </a>
+                 <a href="https://amzn.to/3RB5MbG" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    class="affiliate-btn block w-full bg-gradient-to-r from-green-400 to-green-700 text-white text-center py-3 px-4 rounded-lg font-medium hover:shadow-lg  mt-4">
+                    <i class="fa-brands fa-amazon mr-2"></i> Buy from Amazon India
+                 </a>
+                 <a href="https://s.shopee.co.th/30ay1yJog9" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    class="affiliate-btn block w-full bg-gradient-to-r from-orange-500 to-orange-800 text-white text-center py-3 px-4 rounded-lg font-medium hover:shadow-lg mt-4">
+                    <i class="fa-solid fa-basket-shopping mr-2"></i> Buy from Shopee (TH)
+                 </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer class="mt-16 text-center text-gray-500 text-sm">
+            <p>© 2025 Product Showcase.</p>
+            <p class="mt-2">Affiliate links may earn us a commission at no extra cost to you.</p>
+        </footer>
+    </div>
+</body>
+</html>
